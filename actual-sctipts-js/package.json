@@ -1,0 +1,19 @@
+{
+  "name": "test-scripts-js",
+  "version": "1.0.0",
+  "description": "javascript testing environment",
+  "main": "index.js",
+  "author": "kernelkennethg",
+  "license": "MIT",
+  "dependencies": {
+    "@clickhouse/client": "^1.10.1",
+    "@uniswap/sdk-core": "^7.7.2",
+    "@uniswap/universal-router": "^2.0.0",
+    "@uniswap/v3-periphery": "^1.4.4",
+    "@uniswap/v3-sdk": "^3.25.2",
+    "axios": "^1.8.2",
+    "ethers": "^6.13.5",
+    "ssh2": "^1.16.0",
+    "tunnel-ssh": "^5.2.0"
+  }
+}
