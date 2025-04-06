@@ -41,4 +41,19 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
   </body>
+  <script>
+    document.addEventListener("DOMContentLoaded", (function () {
+      const e = document.querySelector("#load");
+      try {
+        let t = firebase.app(),
+          o = ["auth", "database", "firestore", "functions", "messaging", "storage", "analytics", "remoteConfig",
+            "performance"
+          ].filter((e => "function" == typeof t[e]));
+        e.textContent = `Firebase SDK loaded with ${o.join(", ")}`
+      } catch (t) {
+        console.error(t), e.textContent = "Error loading the Firebase SDK, check the console."
+      }
+    }))
+
+  </script>
 </html>
