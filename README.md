@@ -1,6 +1,4 @@
-DarkArtistry: @workspace look at the repo, you would know that this is a MEV-PIRATES repo, it makes use of a running full node, in particular reth+lighthouse. it has t script to queries the mempool and create a data on a centralise database. the data created are decoded from 1inch and uniswap transactions. and making use of uniswap v3's quote contract, to get a quote and compare with the transactions and finally calculate the slippage. It also has a frontend that integrates to worldcoin ID, allowing verified humans to click and generate aPI Key. This helps to decentralized the builder network. worldcoin and flashbots made a rollup-boost to prioritize human transactions, this project further enhances it by promoting decentralised builder / relayer network. Now any human can query the centralized database and start their on builder advanture.  create a README.md file for me. Thank you.
-
-Workspace: Collecting workspace information# MEV Pirates
+# MEV Pirates
 
 A decentralized MEV (Maximal Extractable Value) opportunity detector and builder network enabler.
 
